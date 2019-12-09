@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #fffffada;
+    
+    font-size: 1.1em;
+    /* background: rgba(238, 238, 238, 0.267); */
+}
+
+.yoga-font{
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.landing {
+    height: 100vh;
+    background: linear-gradient(rgba(6, 20, 31, 0.8), rgba(0, 0, 0, 0.6)), url(../img/hobie4.jpg) no-repeat center;
+    /* background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 70%, rgba(255, 255, 255, 1) 100%), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/SUP.jpg) no-repeat center; */
+    background-size: cover;
+}
+
+/* Header ------------------*/
+/* .top-content {
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+} */
+
+/* .blog {
+    background: rgba(0, 0, 0, 0.5);
+} */
+
+/* .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+} */
+
+/* .navigation {
+    padding-top: 3vh;
+    list-style: none;
+    margin: 0;
+} */
+
+/* .navigation a {
+    text-decoration: none;
+    display: block;
+    padding-right: 1em;
+    color: white;
+    margin-right: 20px;
+} */
+
+/* .navigation span:hover {
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+} */
+
+/* .top-social {
+    padding-top: 3vh;
+    margin-left: auto;
+} */
+
+/* Title ----------------------*/
+.title {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 40px;
+}
+
+h1 {
+    font-size: 3.8em;
+    font-weight: lighter;
+    margin-bottom: 7px;
+}
+
+.title p {
+    padding-left: 3px;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+/* Arrow ----------------------*/
+.arrow {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+
+.fa-chevron-down {
+    font-size: 0.7em;
+    align-self: flex-end;
+    padding-bottom: 10px;
+}
+
+/* Content ----------------------*/
+.content-img{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .4);
+}
+
+.bdy-img{
+    max-width: 500px;
+    max-height: 50px;
+}
+
+.card-icon{
+    font-size: 6rem;
+}
+
+.card-title{
+    text-decoration: underline;
+}
+/* Blog ----------------------*/
+
+.blog-post {
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 30px;
+    color: #222222;
+    font-weight: 600;
+    background-color: #22222223;
+    border-radius: 5px;
+    padding: 5px 15px 10px;
+    margin: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.158);
+}
+
+.blog-post img {
+    margin-right: 15px;
+    width: 250px;
+    float: left;
+}
+
+.blog-post {
+    max-width: 800px;
+    flex-grow: 2;
+    padding-right: 20px;
+}
+
+.item {
+    flex-grow: 1;
+}
+
+.timestamp {
+    float: right;
+    font-size: 0.7em;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Angebot --------------------*/
+/* .angebot{
+    margin-top: 20px;
+    background: #e3ed9b;
+    width: 75%;
+    padding: 200px;
+    border: 1px solid black;
+} */
+
+.angebot {
+    font-family: 'Assistant', sans-serif;
+    position: relative;
+    width: 75%;
+    padding: 2em 1.5em;
+    margin-top: 2em;
+    /* margin: 2em auto; */
+    color: #fff;
+    background: #e3ed9b;
+  }
+
+.angebot:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 25px 25px 0;
+    border-style: solid;
+    border-color: #aebb6c #fff;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
+/* About ----------------------*/
+.carousel-item{
+    max-height: 100%;
+}
+
+/* Footer ---------------------*/
+footer{
+    font-size: 1rem;
+}
+
+/* Icons ----------------------*/
+
+.social-media {
+    padding: 0 1em;
+    font-size: 1.2em;
+    /* width: 50px; */
+    text-align: center;
+    text-decoration: none;
+}
+/* Add a hover effect if you want */
+.social-media:hover {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube,
+.fa-chevron-down {
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.fa-snowboarding{
+    transform: rotate(-19deg);
+}
